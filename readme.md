@@ -7,7 +7,7 @@ Step 1: In Auth0 Dash board Create a Client.
 
 Step 2: Create an Custom API 
 
-Step 3: Create Scopes for the API
+Step 3: Create Scopes for the API, in this example, `JerseySecurityConfig.java` I have added the `hasAuthority("authorize:post")` and `hasAuthority("authorize:get")` for secure POST and GET method respectively. Change the scope of your requests when required.
 
 Step 4: Add the following URLS to your callback in client settings for generating new access token. You can ignore this step if you have front end client UI Application with Angular or React.
 1. `http://auth0.digituz.com.br/` and
