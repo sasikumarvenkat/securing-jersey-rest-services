@@ -1,5 +1,5 @@
 # Securing Spring Jersey (JAX-RS) REST APIs using Auth0 
-This project repository contains the start pack components for setting up a REST Service using Spring Boot and Jersey (Tomcat) secured with Spring Security and Auth0.
+This project repository contains the starter pack components for setting up a REST Service using Spring Boot and Jersey (Tomcat) secured with Spring Security and Auth0.
 	
 If you already have account with auth0 you can skip this step else you have to sign up auth0 for Authentication, Identity Management, SSOs and many. Click this link [Signup](https://auth0.com/signup).
 	
